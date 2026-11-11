@@ -1,0 +1,22 @@
+# Configurações locais e credenciais
+.agents/
+.aws/
+.codex/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+id_ed25519
+id_rsa
+oci-deploy-keys/
+oci-comandafacil-*
+
+# Saídas locais do .NET e dos testes
+bin/
+obj/
+TestResults/
+.vs/
+playwright-report/
