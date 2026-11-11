@@ -1,7 +1,18 @@
+# Documentação interna (mantida apenas no workspace)
+/docs/HANDOFF.md
+/docs/INFRAESTRUTURA.md
+/docs/PRD-ComandaFacil.md
+/docs/SUGESTOES-PRD.md
+/docs/privado/
+
 # Configurações locais e credenciais
 .agents/
 .aws/
 .codex/
+.ssh/
+.secrets/
+.cloudflared/
+.oci/
 .env
 .env.*
 !.env.example
@@ -13,6 +24,8 @@ id_ed25519
 id_rsa
 oci-deploy-keys/
 oci-comandafacil-*
+credentials.json
+secrets.json
 
 # Saídas locais do .NET e dos testes
 bin/
